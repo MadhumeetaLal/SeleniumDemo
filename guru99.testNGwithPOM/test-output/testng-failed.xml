@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.guru99.testNGclasses.Test_LoginPage">
+        <methods>
+          <include name="precondition"/>
+          <include name="postcondition"/>
+        </methods>
+      </class> <!-- com.guru99.testNGclasses.Test_LoginPage -->
+      <class name="com.guru99.testNGclasses.Test_HomePage">
+        <methods>
+          <include name="precondition"/>
+          <include name="test_ClickingsidebarMenu"/>
+          <include name="postcondition"/>
+        </methods>
+      </class> <!-- com.guru99.testNGclasses.Test_HomePage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
